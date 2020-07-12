@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>A Technical Documentation Page</title>
+    <style>
+      @media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  .navi {
+    max-width: 100%;
+    max-height: 200px;
+    overflow: scroll;
+  }
+  .maini {
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="navi">
+      <nav id="navbar">
+        <header id="main-header">Python 3.8.0</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#New_Features" class="nav-link">New Features</a>
+        <a href="#More_Resources" class="nav-link">More Resources</a>
+        <a href="#Windows_users" class="nav-link">Windows users</a>
+        <a href="#Mac_OS" class="nav-link">Mac OS</a>
+        <a href="#Extra" class="nav-link">Extra</a>
+      </nav>
+    </div>
+    <div class="maini">
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>
+            Python is an interpreted, high-level, general-purpose programming
+            language. Created by Guido van Rossum and first released in 1991,
+            Python's design philosophy emphasizes code readability with its
+            notable use of significant whitespace. Its language constructs and
+            object-oriented approach aim to help programmers write clear,
+            logical code for small and large-scale projects.
+          </p>
+          <br />
+          <p>
+            Python 3.8.0 is the newest major release of the Python programming
+            language, and it contains many new features and optimizations.
+          </p>
+        </section>
+        <section class="main-section" id="New_Features">
+          <header>New Features</header>
+          <p>Major new features of the 3.8 series, compared to 3.7</p>
+          <li>PEP 572, Assignment expressions</li>
+          <li>PEP 570, Positional-only arguments</li>
+          <li>
+            PEP 587, Python Initialization Configuration (improved embedding)
+          </li>
+          <li>PEP 590, Vectorcall: a fast calling protocol for CPython</li>
+          <li>PEP 578, Runtime audit hooks</li>
+          <li>PEP 574, Pickle protocol 5 with out-of-band data</li>
+          <li>
+            Typing-related: PEP 591 (Final qualifier), PEP 586 (Literal types),
+            and PEP 589 (TypedDict)
+          </li>
+          <li>Parallel filesystem cache for compiled bytecode</li>
+          <li>Debug builds share ABI as release builds</li>
+          <li>f-strings support a handy = specifier for debugging</li>
+          <li>continue is now legal in finally: blocks</li>
+          <li>pickle now uses Protocol 4 by default, improving performance</li>
+          <p>
+            There are many other interesting changes, please consult the "What's
+            New" page in the documentation for a full list.
+          </p>
+        </section>
+        <section class="main-section" id="More_Resources">
+          <header>More Resources</header>
+          <li>
+            <a href="https://docs.python.org/3.8/">Online Documentation</a>
+          </li>
+          <li>
+            <a href="https://www.python.org/dev/peps/pep-0569/">PEP 569</a> 3.8
+            Release Schedule
+          </li>
+          <li>
+            Report bugs at
+            <a href="https://bugs.python.org/">https://bugs.python.org.</a>
+          </li>
+          <li>
+            <a href="https://www.python.org/psf/donations/"
+              >Help fund Python and its community.</a
+            >
+          </li>
+        </section>
+        <section class="main-section" id="Windows_users">
+          <header>Windows Users</header>
+          <p>
+            The binaries for AMD64 will also work on processors that implement the Intel 64 architecture.
+            (Also known as the "x64" architecture, and formerly known as both "EM64T" and "x86-64".)
+          </p><br />
+            <p>There are now "web-based" installers for Windows platforms; 
+              the installer will download the needed software components at installation time.</p><br />
+            <p>There are redistributable zip files containing the Windows builds,
+               making it easy to redistribute Python as part of another software package. Please see the documentation regarding Embedded Distribution for more information.</p>
+
+        <section class="main-section" id="Mac_OS">
+          <header>Mac OS</header>
+       <p>For Python 3.8.0, we provide one installer: 64-bit-only that works on macOS 10.9 (Mavericks) and later systems.</p><br />
+       <p>Please read the "Important Information" displayed during installation for information about SSL/TLS
+          certificate validation and the running the "Install Certificates.command".</p>
+        </section>
+        <section class="main-section" id="Extra">
+          <header>Extra</header>
+          <p><b>Interviewer:</b> And how long have you been here?</p><br />
+
+          <p><b>Camel spotter:</b> Three years.</p><br />
+
+          <p><b>Interviewer:</b> So, in, er, three years you've spotted no camels?</p><br />
+
+          <p><b>Camel spotter:</b> Yes in only three years. Er, I tell a lie, four, be fair, five.
+                I've been camel spotting for just the seven years. Before that of course I was a Yeti Spotter.</p><br />
+
+          <p><b>Interviewer</b>: A Yeti Spotter, that must have been extremely interesting.</p><br />
+
+          <p><b>Camel spotter:</b> Oh, it was extremely interesting, very, very - quite... it was dull; dull, dull, dull, oh God it was dull.
+           Sitting in the Waterloo waiting room. Of course once you've seen one Yeti you've seen them all.</p><br />
+           <h4>Types of input:</h4>
+           <pre>
+           <code>input()</code>
+           <code>int(input())</code>
+           <code>float(input())</code>
+           <code>round(input())</code>
+           <code>input("Enter a value: ")</code>
+           </pre>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  flex-wrap: wrap;
+}
+
+.navi {
+  background-color: teal;
+  border-right: 2px solid black;
+  max-width: 250px;
+  height: 100vh;
+  flex: 1;
+}
+
+.maini {
+  background-color: whitesmoke;
+  padding: 5px 30px 5px 30px;
+  margin: auto;
+  height: 100vh;
+  overflow-y: scroll;
+  flex: 2;
+}
+
+header {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main header {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+nav a {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+#main-header {
+  background-color: yellow;
+  text-align: center;
+  padding: 10px;
+}
